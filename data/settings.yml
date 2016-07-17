@@ -1,7 +1,9 @@
 site:
-  title: skypicture
-  description: "Skypicture est une société de prise de vues aériennes basée en Provence, mettant en oeuvre des DRONES dernières générations. Nous intervenons dans les secteurs de <strong>l'immobilier, du bâtiment, de l'événementiel, du film institutionnel, de la viticulture.</strong>"
-  url: "http://www.skypicture.fr"
+  title: Emmanuel-Perstuisot
+  description1: Artiste Français né en 1969 à Paris , bercer depuis toujours par le rêve et l’imaginaire. Il s’évade de son quotidien dans la trames de ses toiles , dans lequel il peint un monde qui se balance entre rêve et réalité.
+  description2: Pousser la porte de sa folie et entrer dans sa lumière. A l’issu d’une formation à l’école Duperré et l’école Boulle , il décide de vivre de sa passion et aura la chance d’être l’élève du grand Maître Gérard Di Maccio qui le forme aux techniques des peintures de la renaissance .
+  description3: Ses œuvres participent à de nombreuses expositions , récompensé par plusieurs prix, dont le prix des Beaux- Arts au salon international de Kobé ( Japon) en 2005 .
+  url: "http://www.emmanuel-pertuisot.fr"
 
 
 features:
@@ -16,10 +18,10 @@ features:
 
 
 author:
-  name: Nicolas ACARD
-  address: Aix en provence
-  phone: Tel :06-61-56-81-40
-  email: Email :contact@skypicture.fr
+  name: Emmanuel Pertuisot
+  address: Paris
+  phone: Tel :06-34-96-06-03
+  email: Email :contact@emmanuel-pertuisot.fr
 
 social:
   facebook: "https://facebook.com/nowifisummercamp"
