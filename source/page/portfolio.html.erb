@@ -1,0 +1,41 @@
+<div class="header-real">
+ <div class="banner-content">
+  <h1>Mes oeuvres</h1>
+  <p>Quel plaisir de vous montrer mon travail.</p>
+ </div>
+</div>
+
+
+<div class="wrapper padded">
+  <div class="container-fluid">
+    <div class="row">
+      <% data.peinture.each do |toto, peinture| %>
+       <div class="col-xs-12 col-sm-6 col-md-3">
+         <div class="portfolio thumbnail">
+         <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg">
+          <%= image_tag peinture.titre%>
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <iframe src="<%= peinture.titre %>" width="800" height="600" align="middle"></iframe>
+                  </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+     <% end %>
+    </div>
+  </div>
+</div>
+
+

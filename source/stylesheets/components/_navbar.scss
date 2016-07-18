@@ -1,0 +1,26 @@
+
+//---------navbar---------------
+
+
+.navbar-sup{
+   background: #212121;
+  padding: 9px 71;
+  color: #CCCCCC;
+  height:30px;
+  padding-left: 170px;
+  }
+
+
+.navbar-sup ul {
+  //margin-top: 10px;
+}
+.navbar-sup a {
+  color: $gray-light;
+  font-size: 20px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+}
+.navbar-sup a:hover{
+  color: $yellow;
+
+}
