@@ -9175,81 +9175,6 @@ button.close {
 .bg-facebook {
   background: #3b5998; }
 
-/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_avatar.scss */
-.avatar {
-  width: 30px;
-  border-radius: 50%; }
-
-/* line 5, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_avatar.scss */
-.avatar-large {
-  width: 50px;
-  border-radius: 50%; }
-
-/* line 9, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_avatar.scss */
-.avatar-bordered {
-  width: 30px;
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border: white 1px solid; }
-
-/* line 15, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_avatar.scss */
-.avatar-square {
-  width: 30px;
-  border-radius: 0px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border: white 1px solid; }
-
-/* line 22, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_avatar.scss */
-.avatar-xxl {
-  width: 200px;
-  border-radius: 50%;
-  margin: 20px; }
-
-/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge-container {
-  position: relative;
-  font-size: 25px;
-  line-height: 30px;
-  width: 30px;
-  color: grey; }
-
-/* line 8, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge {
-  position: absolute;
-  top: -5px;
-  right: -5px;
-  font-size: 10px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 18px;
-  width: 18px;
-  text-align: center;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 50%; }
-
-/* line 23, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge-red {
-  background: #EE5F5B; }
-
-/* line 26, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge-green {
-  background: #32B796; }
-
-/* line 29, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge-blue {
-  background: #469AE0; }
-
-/* line 32, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge-black {
-  background: black; }
-
-/* line 35, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_badge.scss */
-.badge-bordered {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border: white 1px solid; }
-
 /* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_banner.scss */
 .banner {
   color: white;
@@ -9303,28 +9228,6 @@ button.close {
   position: relative;
   z-index: 8; }
 
-/* line 2, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_bg-background.scss */
-.vid-container {
-  margin-top: 90px;
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-/* line 11, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_bg-background.scss */
-.bgvid {
-  z-index: -10;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw; }
-
-/* line 20, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_bg-background.scss */
-.contact-form {
-  z-index: 1000; }
-
 /* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_bg-video.scss */
 #bg_container {
   height: 400px;
@@ -9365,17 +9268,12 @@ button.close {
   border: 1px solid grey;
   opacity: 0.4; }
 
-/* line 49, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.wrapper-matos {
-  width: 100%;
-  margin-top: 30px; }
-
-/* line 54, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 50, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .img-size {
   margin-top: 40px;
   width: 400px; }
 
-/* line 59, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 55, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .title {
   background: #F5F5F5;
   margin-top: 120px;
@@ -9383,7 +9281,7 @@ button.close {
   padding: 20px;
   font-weight: lighter; }
 
-/* line 68, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 64, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .text-feature {
   height: 460px;
   color: white;
@@ -9396,37 +9294,33 @@ button.close {
   text-align: justify;
   font-weight: lighter; }
 
-/* line 82, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 78, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .text-feature p {
   opacity: 0.6; }
 
-/* line 86, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 82, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .container-video {
   padding: 0;
   margin: 0; }
 
-/* line 92, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.wrapper-skypicture {
-  width: 100%; }
-
-/* line 96, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 89, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
   margin-bottom: -6px; }
 
-/* line 105, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 98, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .image-feature img {
   width: 100%;
   height: 460px;
   transition: all 0.35s 0.3s ease; }
 
-/* line 111, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 104, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .image-feature img:hover {
   opacity: 0.6;
   border: 10px #fff solid; }
 
-/* line 117, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 110, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
 .text {
   background: #F5F5F5;
   padding: 10%;
@@ -9437,7 +9331,7 @@ button.close {
   align-items: center;
   justify-content: center; }
 
-/* line 133, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 5, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_navbar.scss */
 .navbar-sup {
   background: #212121;
   padding: 9px 71;
@@ -9445,280 +9339,37 @@ button.close {
   height: 30px;
   padding-left: 170px; }
 
-/* line 145, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 17, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_navbar.scss */
 .navbar-sup a {
   color: #777777;
   font-size: 20px;
   letter-spacing: 20px;
   transition: color 0.5s ease; }
 
-/* line 151, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
+/* line 23, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_navbar.scss */
 .navbar-sup a:hover {
   color: #FDB631; }
 
-/* line 161, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.arrow,
-.arrow:before {
-  position: absolute;
-  left: 50%; }
-
-/* line 167, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.arrow {
-  width: 40px;
-  height: 40px;
-  top: 50%;
-  margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(45deg);
-  border-left: none;
-  border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid; }
-
-/* line 179, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow; }
-
-@keyframes arrow {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0;
-    transform: translate(-10px, -10px); } }
-/* line 205, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.arrow,
-.arrow:before {
-  position: absolute;
-  left: 50%; }
-
-/* line 211, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.arrow {
-  width: 40px;
-  height: 40px;
-  top: 90%;
-  margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(45deg);
-  border-left: none;
-  border-top: none;
-  cursor: pointer;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid; }
-
-/* line 224, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow; }
-
-@keyframes arrow {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0;
-    transform: translate(-10px, -10px); } }
-/* Icon set - http://ionicons.com */
-/* line 275, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.thumb {
-  width: 100%; }
-
-/* line 281, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.card-figure {
-  padding: 20px; }
-
-/* line 284, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 {
-  font-family: 'Raleway', Arial, sans-serif;
+/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_portfolio.scss */
+.portfolio img {
   position: relative;
-  overflow: hidden;
-  margin: auto;
-  min-width: 230px;
-  max-width: 340px;
-  color: #ffffff;
-  text-align: center;
-  background-color: #000000; }
+  height: 290px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); }
 
-/* line 295, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 * {
-  box-sizing: border-box;
-  transition: all 0.35s 0.5s ease; }
-
-/* line 301, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 img {
-  max-width: 100%;
-  vertical-align: top; }
-
-/* line 305, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 figcaption {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
-/* line 313, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 h2 {
-  position: absolute;
-  margin: 0;
-  width: 100%;
-  transform: translate(25%, -50%);
-  left: 0;
-  top: 50%;
-  opacity: 0;
-  padding: 0 20px;
-  font-weight: 300;
-  text-transform: uppercase; }
-
-/* line 326, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 .icons {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0; }
-
-/* line 334, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 i {
-  padding: 10px 5px;
-  display: inline-block;
-  font-size: 24px;
-  color: #ffffff;
-  text-align: center;
-  opacity: 0.7; }
-
-/* line 342, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 i:hover {
-  opacity: 1;
+/* line 9, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_portfolio.scss */
+.portfolio:hover {
+  box-shadow: -1px 2px 5px 1px black;
+  opacity: 0.5;
   transition: all 0.35s ease; }
 
-/* line 347, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:before {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  top: 0;
-  right: 0;
-  content: '';
-  background-color: #6088a3;
-  z-index: 1;
-  opacity: 0.4;
-  transition: all 0.35s 0.3s ease-in; }
+/* line 27, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_portfolio.scss */
+iframe {
+  height: 660px; }
 
-/* line 360, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 200px 0 200px 200px;
-  border-color: transparent transparent transparent #212121;
-  opacity: 0.9;
-  transition: all 0.35s 0s ease-out; }
-
-/* line 376, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302 a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 2; }
-
-/* line 384, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:hover img,
-.snip1302.hover img {
-  opacity: 0.4; }
-
-/* line 388, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:hover h2,
-.snip1302.hover h2,
-.snip1302:hover .icons,
-.snip1302.hover .icons {
-  opacity: 1; }
-
-/* line 394, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:hover h2,
-.snip1302.hover h2 {
-  transform: translate(0, -50%); }
-
-/* line 399, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:hover:before,
-.snip1302.hover:before {
-  left: 0;
-  transition: all 0.35s 0s ease-out; }
-
-/* line 405, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_feature.scss */
-.snip1302:hover:after,
-.snip1302.hover:after {
-  right: 50%;
-  transition: all 0.35s 0.2s ease-in; }
-
-/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_header.scss */
-.header-flat {
-  border: 1px solid #dce0e0; }
-
-/* line 4, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_header.scss */
-.header-flat-details {
-  display: flex;
-  align-items: center;
-  padding: 30px;
-  padding-left: 0; }
-
-/* line 10, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_header.scss */
-.header-flat p {
-  font-weight: normal;
-  font-size: 14px;
-  color: #777777; }
-
-/* line 15, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_header.scss */
-.header-flat h1 {
-  font-size: 18px;
-  margin-top: 0; }
-
-/* line 19, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_header.scss */
-.header-flat-owner {
-  padding: 20px; }
-
-/* line 22, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_header.scss */
-.header-flat form {
-  margin: 20px 0;
-  margin-right: 0;
-  background: #F4F4F4;
-  padding: 15px;
-  border-radius: 3px; }
-
-/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_realisation.scss */
-.wrapper-video {
-  background: #e3e3e3;
-  margin-bottom: 20px;
-  padding: 0; }
-
-/* line 7, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_realisation.scss */
+/* line 33, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_portfolio.scss */
 .header-real {
-  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url("../images/dji-inspire-1.jpg");
+  background-attachment: fixed;
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url("../images/FullSizeRender.jpg");
   color: white;
   text-align: center;
   height: 50vh;
@@ -9728,27 +9379,18 @@ button.close {
   align-items: center;
   justify-content: center; }
 
-/* line 18, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_realisation.scss */
+/* line 45, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_portfolio.scss */
 .header-real h1 {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
 
-/* line 23, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_realisation.scss */
+/* line 50, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_portfolio.scss */
 .header-real p {
   font-size: 25px;
   font-weight: lighter;
   margin-bottom: 50px;
   font-color: #EEE; }
-
-/* line 1, /Users/nicolas/code/vamos91/tuto-middleman/emmanuel/art-gallery/source/stylesheets/components/_video-card.scss */
-.video-card {
-  border-radius: 5px;
-  background-color: #222222;
-  color: white;
-  font-weight: lighter;
-  margin: 50px;
-  padding: 20px; }
 
 /*
 ==============================================
