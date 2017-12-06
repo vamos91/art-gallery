@@ -12,3 +12,17 @@
 
 
 
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+
+function Activate_details{
+  $(".portfolio").removeClass("details");
+
+}

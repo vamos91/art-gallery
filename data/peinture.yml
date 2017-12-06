@@ -1,5 +1,7 @@
   video1:
     titre: peinture1.jpg
+    taille: 70x120cm
+    nom: rayon de soleil
   video2:
     titre: peinture2.jpg
   video3:
